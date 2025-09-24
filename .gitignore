@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Machine Learning Models
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.model
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+saved_weights*.pt
+models/
+checkpoints/
+weights/
+
+# Credentials & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.cer
+*credentials.json
+*service-account*.json
+*firebase*.json
+secrets/
+config/secrets/
+api_keys.py
+api_keys.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node/React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+.expo-shared/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual environments
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Uploads
+uploads/
+
+# Cache and temp
+.pids/
+__MACOSX/
+.claude/
+
+# Other directories to exclude
+frontend/
+mobile_backup/
+screenshot-service/
+performance_data/
+sample_images/
+
+# Documents
+*.docx
